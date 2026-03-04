@@ -7,7 +7,7 @@ from ..ast import (
     IfNode, SwitchNode, ForNode, WhileNode, SusNode, SusHandlerNode,
     ExprStmtNode, HookDeclNode, HookSendMessageDeclNode,
 )
-
+# fixes from claude
 
 class StmtParser(ExprParser):
 

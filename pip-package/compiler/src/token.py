@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from typing import Any
 from .tokenTypes import TokenType
-
+# fixes from claude
 
 @dataclass
 class Token:

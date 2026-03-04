@@ -2,7 +2,7 @@ from typing import List
 from .token import Token
 from .tokenTypes import TokenType, KEYWORDS
 from .errors import ReunionLexError
-
+# fixes from claude
 
 class Lexer:
     def __init__(self, source: str, filename: str = "<stdin>"):

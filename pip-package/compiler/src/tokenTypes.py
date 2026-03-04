@@ -1,5 +1,5 @@
 from enum import Enum, auto
-
+# fixes from claude
 
 class TokenType(Enum):
     # literals

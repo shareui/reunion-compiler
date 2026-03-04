@@ -2,7 +2,7 @@ from typing import List
 from ..token import Token
 from ..tokenTypes import TokenType
 from ..parseError import ReunionParseError
-
+# fixes from claude
 
 class ParserBase:
     def __init__(self, tokens: List[Token], filename: str = "<stdin>", source: str = ""):

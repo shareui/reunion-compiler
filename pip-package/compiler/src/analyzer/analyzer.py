@@ -12,7 +12,7 @@ from ..ast import (
     IdentNode, CallNode, MemberNode, StringNode,
 )
 from .semanticError import SemanticError, SemanticWarning, ReunionSemanticError
-
+# fixes from claude
 
 # known metainfo keys from SYNTAX.md
 _METAINFO_KEYS = {

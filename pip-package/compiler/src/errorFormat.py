@@ -11,7 +11,7 @@ Produces output like:
 """
 import os
 import sys
-
+# fixes from claude
 _ANSI = sys.stderr.isatty() and os.getenv("NO_COLOR") is None
 
 

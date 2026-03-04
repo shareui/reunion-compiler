@@ -1,5 +1,5 @@
 from .errorFormat import formatDiagnostic
-
+# fixes from claude
 
 class ReunionLexError(Exception):
     def __init__(self, message: str, filename: str, line: int, col: int,

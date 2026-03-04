@@ -7,7 +7,7 @@ from typing import Any
 class Node:
     line: int = field(default=0, kw_only=True)
     col: int = field(default=0, kw_only=True)
-
+# fixes from claude
 
 # ------------------------------------------------------------------
 # top-level nodes
